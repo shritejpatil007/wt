@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Instant Coffee Shop</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header>
+    <h1>Instant Coffee Shop</h1>
+    <p>Where Every Sip Feels Like Home</p>
+  </header>
+
+  <!-- NAVIGATION -->
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#menu">Menu</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- HOME SECTION -->
+  <section id="home" class="section">
+    <div class="home-container">
+      <div class="text-content">
+        <h2>Welcome to Brew Haven!</h2>
+        <p>
+          Discover the art of coffee-making at <strong>Brew Haven</strong>.  
+          We serve freshly roasted coffee beans, hand-brewed perfection,  
+          and a cozy ambiance that makes every visit special.
+        </p>
+        <a href="#menu" class="btn">Explore Menu</a>
+      </div>
+      <img
+        src="coffecup.jpeg"
+        alt="Coffee Shop"
+      />
+    </div>
+  </section>
+
+  <!-- MENU SECTION -->
+  <section id="menu" class="section">
+    <h2>Our Special Menu</h2>
+    <div class="menu-grid">
+      <div class="menu-item">
+        <img src="coffecup.jpeg" alt="Espresso" />
+        <h3>Espresso</h3>
+        <p>Rich, strong, and bold — a true classic.</p>
+        <span>₹120</span>
+      </div>
+
+      <div class="menu-item">
+        <img src="Latte.jpeg" alt="Latte" />
+        <h3>Latte</h3>
+        <p>Creamy milk blended with smooth espresso.</p>
+        <span>₹150</span>
+      </div>
+
+      <div class="menu-item">
+        <img src="cappuccino.jpeg" alt="Cappuccino" />
+        <h3>Cappuccino</h3>
+        <p>Perfect balance of milk foam and espresso.</p>
+        <span>₹140</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="section contact-section">
+    <h2>Contact Us</h2>
+    <form>
+      <label for="name">Name</label>
+      <input type="text" id="name" placeholder="Enter your name" required />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="Enter your email" required />
+
+      <label for="message">Message</label>
+      <textarea id="message" rows="4" placeholder="Your message..." required></textarea>
+
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 Brew Haven Coffee Shop | All Rights Reserved</p>
+  </footer>
+</body>
+</html>

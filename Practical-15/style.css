@@ -1,0 +1,59 @@
+/* ========== GLOBAL STYLES ========== */
+body {
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #0d1b2a;
+}
+.navbar-brand, .nav-link {
+  color: #fff !important;
+}
+.nav-link:hover {
+  color: #ffc107 !important;
+}
+
+/* About Section */
+#about {
+  background-color: #f8f9fa;
+  padding: 4rem 0;
+}
+.about-img {
+  border-radius: 10px;
+  width: 100%;
+  max-width: 300px;
+}
+
+/* Projects Section */
+#projects {
+  padding: 4rem 0;
+}
+.card {
+  transition: transform 0.3s;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Contact Section */
+#contact {
+  background-color: #f8f9fa;
+  padding: 4rem 0;
+}
+
+/* Footer */
+footer {
+  background-color: #0d1b2a;
+  color: #fff;
+  padding: 1.5rem 0;
+}
+footer a {
+  color: #ffc107;
+  margin: 0 10px;
+  font-size: 1.4rem;
+}
+footer a:hover {
+  color: #fff;
+}

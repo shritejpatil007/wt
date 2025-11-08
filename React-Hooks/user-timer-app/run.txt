@@ -1,0 +1,33 @@
+------------------------------------------------------------
+To Run:
+1) npx create-react-app user-timer-app
+2) Replace src/App.js and src/App.css with provided files.
+
+After CLoning 
+1)npm install-to install all dependencies
+3) Run: npm start
+4) Open http://localhost:3000
+
+
+if npm install gives error then 
+1)rm -rf node_modules package-lock.json
+2)npm install
+3)npm start
+4)open the link
+
+
+------------------------------------------------------------
+Explanation:
+- Demonstrates useState, useEffect, and useRef hooks.
+- useState manages user name, seconds, and running state.
+- useEffect handles side-effects (timer start/stop).
+- useRef stores timer ID for cleanup using clearInterval().
+
+------------------------------------------------------------
+Output:
+✔ Input field for name
+✔ Timer showing seconds on page
+✔ Start/Stop button toggles timer
+✔ Greeting message updates dynamically
+✔ Reset button clears timer
+------------------------------------------------------------

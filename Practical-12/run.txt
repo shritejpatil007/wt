@@ -1,0 +1,27 @@
+------------------------------------------------------------
+To Run:
+1) Save this code as index.html.
+2) Open it using Live Server or in any browser.
+3) Resize window to test responsiveness.
+
+------------------------------------------------------------
+Explanation:
+- Uses semantic HTML5 structure.
+- CSS3 for layout, colors, and responsiveness.
+- Flexbox used for adaptive layout.
+- Media queries adjust the design for tablets and mobiles.
+
+------------------------------------------------------------
+Key CSS Features:
+- Flexbox → For side-by-side layout on large screens.
+- Media Queries → For layout adjustments on mobile.
+- Hover effects → Improve interactivity.
+
+------------------------------------------------------------
+Output:
+✔ Header with shop name
+✔ Navigation bar (Home, Menu, Contact)
+✔ Shop information section with text + image
+✔ Contact form with Name, Email, Message
+✔ Fully responsive mobile layout
+------------------------------------------------------------

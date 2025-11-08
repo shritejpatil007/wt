@@ -1,0 +1,40 @@
+------------------------------------------------------------
+To Run:
+1) Place index.html and style.css in the same folder.
+2) Open index.html using VS Code → "Go Live" or in any browser.
+
+------------------------------------------------------------
+Explanation:
+This project is a responsive personal portfolio website built using Bootstrap 5.
+
+Sections Included:
+- Navbar (sticky + collapsible on mobile)
+- About Me section with image and bio
+- Projects section (3 Bootstrap cards)
+- Contact form using form controls
+- Footer with Bootstrap Icons
+
+------------------------------------------------------------
+Bootstrap Components Used:
+✅ Navbar
+✅ Container, Row, Col (Grid system)
+✅ Cards
+✅ Form Controls
+✅ Buttons
+✅ Icons
+✅ Utilities (p, m, fw-bold, text-primary, shadow, rounded)
+
+------------------------------------------------------------
+Styling:
+- Custom CSS in style.css for color scheme & hover effects.
+- Responsive grid adjusts perfectly for mobile and desktop.
+
+------------------------------------------------------------
+Output:
+✔ Sticky top navigation bar
+✔ About section with photo and text
+✔ Project cards (hover animations)
+✔ Contact form
+✔ Footer with social icons
+✔ Fully responsive Bootstrap layout
+------------------------------------------------------------

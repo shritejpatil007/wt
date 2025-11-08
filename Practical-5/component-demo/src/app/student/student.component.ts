@@ -7,6 +7,6 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./student.component.css']
 })
 export class StudentComponent {
-  studentName: string = 'Rohan Patil';
+  studentName: string = 'ABC';
   @Input() parentMessage: string = '';
 }
