@@ -56,3 +56,6 @@ When visiting /delete → Confirms deletion
 6)create a file named: usermodel.js->for mongoose operations
 
 
+server.js
+1)mongod
+2)node server.js
